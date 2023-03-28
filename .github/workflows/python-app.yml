@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: 'Checkout'
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: 'Set time zone'
         run: sudo timedatectl set-timezone 'Asia/Shanghai'
