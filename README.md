@@ -1,6 +1,6 @@
 <div align="center">
-  <a href="https://github.com/GaiZhenBiao/ChuanhuChatGPT">
-    <img src="https://user-images.githubusercontent.com/70903329/227087087-93b37d64-7dc3-4738-a518-c1cf05591c8a.png" alt="Logo" height="156">
+  <a href="https://github.com/WangRongsheng/ChatGenTitle">
+    <img src="https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/logo.png" alt="Logo" height="285">
   </a>
 
   <p align="center">
