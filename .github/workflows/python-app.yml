@@ -3,6 +3,7 @@ name: Scrapy arxiv information and push to GitHub
 on:
   schedule:
     - cron:  '30 8,17 * * *'
+  workflow_dispatch:
 
 jobs:
   scrapy:
