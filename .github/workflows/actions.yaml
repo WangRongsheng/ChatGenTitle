@@ -22,7 +22,7 @@ jobs:
     - name: Run scrapy
       run: python get_arxiv_multiprocessing.py
     - name: Push changes
-      uses: WangRongsheng/ChatGenTitle@main
+      uses: WangRongsheng/ChatGenTitle@v0
       with:
         commit_message: 'update data'
         commit_options: '--author "wrs6@88.com"'
