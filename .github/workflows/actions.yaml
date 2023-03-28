@@ -1,0 +1,32 @@
+name: Scrapy arxiv information and push to GitHub
+
+on:
+  schedule:
+    - cron:  '30 8,17 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrapy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: check out the code
+      uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Run scrapy
+      run: python get_arxiv_multiprocessing.py
+    - name: Push changes
+      uses: WangRongsheng/ChatGenTitle@v1.0
+      with:
+        commit_message: 'update data'
+        commit_options: '--author "wrs6@88.com"'
+        branch: main
+        file_pattern: 'data/*.json'
+        pull_branch: true
+        github_token: ${{ secrets.ACCESS_TOKEN }}
