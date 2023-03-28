@@ -1,8 +1,32 @@
-# ChatGenTitle
+<div align="center">
+  <a href="https://github.com/GaiZhenBiao/ChuanhuChatGPT">
+    <img src="https://user-images.githubusercontent.com/70903329/227087087-93b37d64-7dc3-4738-a518-c1cf05591c8a.png" alt="Logo" height="156">
+  </a>
+
+  <p align="center">
+    <h3>ChatGenTitle: xxx</h3>
+    <p align="center">
+      <a href="https://github.com/WangRongsheng/ChatGenTitle/blob/main/LICENSE">
+        <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
+      </a>
+      <a href="https://github.com/WangRongsheng/ChatGenTitle/graphs/contributors">
+        <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/WangRongsheng/ChatGenTitle" />
+      </a>
+      <a href="https://github.com/WangRongsheng/ChatGenTitle/issues">
+        <img alt="Issues" src="https://img.shields.io/github/issues/WangRongsheng/ChatGenTitle?color=0088ff" />
+      </a>
+      <a href="https://github.com/WangRongsheng/ChatGenTitle/pulls">
+        <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/WangRongsheng/ChatGenTitle?color=0088ff" />
+      </a>
+      <a href=href="https://github.com/kaixindelele/ChatPaper/stargazers">
+        <img src="https://img.shields.io/github/stars/WangRongsheng/ChatGenTitle?color=ccf">
+      </a>
+  </p>
+</div>
+
 
 # LICENSE
 
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
