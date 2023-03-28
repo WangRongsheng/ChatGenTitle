@@ -2,6 +2,7 @@ import urllib.request
 import feedparser
 from datetime import datetime
 import json
+import multiprocessing
 from multiprocessing import Pool
 import time
 import re
@@ -25,19 +26,25 @@ def get_article_info(url):
     return data
 
 if __name__ == '__main__':
-    # 获取Arxiv每日更新的人工智能和计算机视觉分类的文章
+    # 获取Arxiv每日更新的人工智能、计算机视觉和机器学习分类的文章
     url1 = "http://export.arxiv.org/rss/cs.AI"  # 人工智能分类RSS源
     url2 = "http://export.arxiv.org/rss/cs.CV"  # 计算机视觉分类RSS源
-    urls = [url1, url2]
+    url3 = "http://export.arxiv.org/rss/cs.LG"  # 机器学习分类RSS源
+    urls = [url1, url2, url3]
 
     # 数据源
     data = []
     
      # 开始计时
     start = time.time()
+    
+    # 获取 CPU 核心数
+    cores = multiprocessing.cpu_count()
+    # 将进程数设置为 CPU 核心数 + 1
+    processes = cores + 1
 
     # 使用多线程获取文章信息
-    with Pool(4) as p:
+    with Pool(processes) as p:
         data = p.map(get_article_info, urls)
     # 将多个列表合并为一个列表
     data = [info for subdata in data for info in subdata]
