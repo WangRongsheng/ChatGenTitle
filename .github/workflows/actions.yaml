@@ -30,4 +30,3 @@ jobs:
         file_pattern: 'data/*.json'
         pull_branch: true
         github_token: ${{ secrets.ACCESS_TOKEN }}
-        Default: ${{ github.repository }}
