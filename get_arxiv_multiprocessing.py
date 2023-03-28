@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 from multiprocessing import Pool
 import time
+import re
 
 def get_article_info(url):
     response = urllib.request.urlopen(url)
@@ -12,7 +13,8 @@ def get_article_info(url):
     data = []
     # 遍历每个文章，输出标题、摘要和作者信息
     for entry in feed.entries:
-        summary = entry.summary.replace('\n', '').replace('</p>', '').replace('<p>', '')
+        summary = entry.summary.replace('\n', '').replace('</p>', '').replace('<p>', '').replace('\\', '')
+        summary = re.sub(r'http\S+', '', summary)
         title = entry.title.replace('(arXiv:'+ entry.title.split('(arXiv:')[1].split(')')[0] + ')', '').strip()
         info = {
                "instruction": "If you are an expert in writing papers, please generate a good paper title for this paper based on other authors' descriptions of their abstracts.",
