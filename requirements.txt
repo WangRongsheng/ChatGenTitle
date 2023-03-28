@@ -1,2 +1,2 @@
 feedparser
-multiprocessing
+# multiprocessing
