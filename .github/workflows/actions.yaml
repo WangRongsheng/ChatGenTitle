@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  scrapy:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: check out the code
