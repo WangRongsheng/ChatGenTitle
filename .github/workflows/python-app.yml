@@ -1,0 +1,47 @@
+name: 'Crawler arxiv paper information'
+
+on:
+  schedule:
+    - cron: '30 8 * * *'  
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  arxiv-crawler:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'Checkout'
+        uses: actions/checkout@v2
+
+      - name: 'Set time zone'
+        run: sudo timedatectl set-timezone 'Asia/Shanghai'
+
+      - name: 'Set up Python3.9'
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.9
+
+      - name: 'Install requirements'
+        run: pip install -r requirements.txt
+
+      - name: 'Crawl'
+        run: python get_arxiv_multiprocessing.py
+
+      - name: 'Detect changes'
+        id: detect_changes
+        run: if [ -n "$(git status --porcelain)" ]; then echo "::set-output name=changes_detected::yes"; fi
+
+      - name: 'Push changes'
+        if: steps.detect_changes.outputs.changes_detected == 'yes'
+        run: |
+          git config --global user.email "wrs6@88.com"
+          git config --global user.name "wangrongsheng"
+          git add .
+          git commit -m "* update `date '+%Y-%m-%d %H:%M:%S'`"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
