@@ -4,7 +4,7 @@
   </a>
 
   <p align="center">
-    <h3>ChatGenTitle: xxx</h3>
+    <h3>ChatGenTitle: 基于LLMs和百万arXiv论文指导新论文Title生成 </h3>
     <p align="center">
       <a href="https://github.com/WangRongsheng/ChatGenTitle/blob/main/LICENSE">
         <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
@@ -24,17 +24,20 @@
   </p>
 </div>
 
+# News
+
+- 🎉🎉 完成了基于[alpaca-lora](https://github.com/tloen/alpaca-lora) 上进行的`LLaMa-Lora-7B-3`模型微调；
+- 🎉🎉 开始了一项长期进行在`arXiv`上定时爬取[cs.AI](http://export.arxiv.org/rss/cs.AI) 、[cs.CV](http://export.arxiv.org/rss/cs.CV) 、[cs.LG](http://export.arxiv.org/rss/cs.LG) 论文的任务，目的是为了支持 CS 相关方向的研究；
+- 🎉🎉 整理了`220W+`篇arXiv论文的元信息，这些元信息包括：`title`和`abstract`，更多的有：`id`、`submitter`、`authors`、`comments`、`journal-ref`、`doi`、`categories`、`versions`，并以`50W`为一组进行划分，分为`arXiv-1`等；
+
+
 # Release
 
 |模型名称|微调数据|微调基准模型|微调效果|
 |:-|:-|:-|:-|
-|LLaMa-Lora-7B-50-3|arXiv-1-50w|LLaMa-7B|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3.png)|
+|LLaMa-Lora-7B-3|arXiv-1-all|LLaMa-7B|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3.png)|
 
 > 所有模型在4×A100 (80GB)完成训练
-
-# Usage
-
-[使用教程](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/Command/alpaca-lora.md)
 
 # Reference
 
@@ -54,7 +57,6 @@
 - [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
 
 # LICENSE
-
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
