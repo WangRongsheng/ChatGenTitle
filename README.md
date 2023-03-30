@@ -4,7 +4,7 @@
   </a>
 
   <p align="center">
-    <h3>ChatGenTitle: 基于LLMs和百万arXiv论文指导新论文Title生成 </h3>
+    <h3> ChatGenTitle：使用百万arXiv论文信息在LLaMA模型上进行微调的论文题目生成模型 </h3>
     <p align="center">
       <a href="https://github.com/WangRongsheng/ChatGenTitle/blob/main/LICENSE">
         <img alt="GitHub Contributors" src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg" />
