@@ -28,7 +28,7 @@
 
 |模型名称|微调数据|微调基准模型|微调效果|
 |:-|:-|:-|:-|
-|LLaMa-Lora-7B-50-3|arXiv-1-50w|LLaMa-7B|![](./docs/images/7b-50-3.png)|
+|LLaMa-Lora-7B-50-3|arXiv-1-50w|LLaMa-7B|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3.png)|
 
 > 所有模型在4×A100 (80GB)完成训练
 
