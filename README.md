@@ -46,9 +46,6 @@
 
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
-
-
-
 - [ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
 - [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
 
@@ -68,6 +65,8 @@
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+**使用和许可声明**：ChatGenTitle 仅可以在获得许可下供研究使用。
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
