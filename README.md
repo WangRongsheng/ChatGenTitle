@@ -30,7 +30,7 @@
 |:-|:-|:-|:-|
 |LLaMa-Lora-7B-50-3|arXiv-1-50w|LLaMa-7B|![](./docs/images/7b-50-3.png)|
 
-> 所有模型在*4×A100 (80GB)*完成训练
+> 所有模型在4×A100 (80GB)完成训练
 
 # Usage
 
