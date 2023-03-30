@@ -30,6 +30,12 @@
 |:-|:-|:-|:-|
 |LLaMa-Lora-7B-50-3|50w|LLaMa-7B|![](./docs/images/7b-50-3.png)|
 
+> 所有模型在*4×A100 (80GB)*完成训练
+
+# Usage
+
+[使用教程](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/Command/alpaca-lora.md)
+
 # Reference
 
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
