@@ -24,6 +24,12 @@
   </p>
 </div>
 
+# Release
+
+|模型名称|微调数据量|微调基准模型|微调效果|
+|:-|:-|:-|:-|
+|LLaMa-Lora-7B-50-3|50w|LLaMa-7B|![](./docs/images/7b-50-3.png)|
+
 # Reference
 
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
