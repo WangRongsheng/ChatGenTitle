@@ -50,6 +50,7 @@
 - [Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
 - [cabrita](https://github.com/22-hours/cabrita)
 - [japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora)
+- [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
 
 # Knowledge
 
