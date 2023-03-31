@@ -26,8 +26,8 @@ jobs:
           python-version: 3.9
 
       - name: 'Install requirements'
-        run: pip install -r requirements.txt
-
+        run: pip install feedparser multiprocessing
+        
       - name: 'Crawl'
         run: python get_arxiv_multiprocessing.py
 
