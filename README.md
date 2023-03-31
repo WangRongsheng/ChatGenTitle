@@ -28,7 +28,7 @@
 
 - 🎉🎉 完成了基于[alpaca-lora](https://github.com/tloen/alpaca-lora) 上进行的`LLaMa-Lora-7B-3`模型微调；
 - 🎉🎉 开始了一项长期进行在`arXiv`上定时爬取[cs.AI](http://export.arxiv.org/rss/cs.AI) 、[cs.CV](http://export.arxiv.org/rss/cs.CV) 、[cs.LG](http://export.arxiv.org/rss/cs.LG) 论文的任务，目的是为了支持 CS 相关方向的研究；
-- 🎉🎉 整理了`220W+`篇arXiv论文的元信息，这些元信息包括：`title`和`abstract`，更多的有：`id`、`submitter`、`authors`、`comments`、`journal-ref`、`doi`、`categories`、`versions`，并以`50W`为一组进行划分，分为`arXiv-1`等；
+- 🎉🎉 整理了`220W+`篇arXiv论文的元信息，这些元信息包括：`title`和`abstract`，更多的有：`id`、`submitter`、`authors`、`comments`、`journal-ref`、`doi`、`categories`、`versions`；
 
 
 # Release
