@@ -75,3 +75,13 @@ This work is licensed under a
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
+
+# Stargazers
+	
+[![Stargazers over time](https://starchart.cc/WangRongsheng/ChatGenTitle.svg)](https://starchart.cc/WangRongsheng/ChatGenTitle)
+
+<br><a href="https://github.com/Charmve/computer-vision-in-action#-以用促学先会后懂-"><img align="right" alt="Go for it!" src="https://raw.githubusercontent.com/Charmve/computer-vision-in-action/dd292873828228a753a9bd2de4576dbf8cc3902c/res/ui/footer-rocket.svg" height="220" title="Do what you like, and do it best!"/></a>
+<br>
+<p align="center">Feel free to ask any questions, open a PR if you feel something can be done differently!</p>
+<h2 align="center">🌟 Star this repository 🌟</h2>
+<p align="center">Created by <a href="https://github.com/WangRongsheng">WangRongsheng</a></p>
