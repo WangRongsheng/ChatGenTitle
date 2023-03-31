@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/WangRongsheng/ChatGenTitle">
-    <img src="https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/logo.png" alt="Logo" height="285">
+    <img src="https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/logo.png" alt="Logo" height="220">
   </a>
 
   <p align="center">
