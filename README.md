@@ -26,7 +26,8 @@
 
 # News
 
-- 🎉🎉 完成了基于[alpaca-lora](https://github.com/tloen/alpaca-lora) 上进行的`LLaMa-Lora-7B-3`模型微调；
+- 🎉🎉 正式发布[LLaMa-Lora-7B-3](https://drive.google.com/file/d/1c1uUizHP7jatrj6GxtppGYgZSKPWSExs/view?usp=sharing) 版本的LoRA模型权重，允许本地部署使用；
+- 🎉🎉 完成了基于[alpaca-lora](https://github.com/tloen/alpaca-lora) 上进行的`LLaMa-Lora-7B-3`和`LLaMa-Lora-13B-3`模型微调；
 - 🎉🎉 开始了一项长期进行在`arXiv`上定时爬取[cs.AI](http://export.arxiv.org/rss/cs.AI) 、[cs.CV](http://export.arxiv.org/rss/cs.CV) 、[cs.LG](http://export.arxiv.org/rss/cs.LG) 论文的任务，目的是为了支持 CS 相关方向的研究；
 - 🎉🎉 整理了`220W+`篇arXiv论文的元信息，这些元信息包括：`title`和`abstract`，更多的有：`id`、`submitter`、`authors`、`comments`、`journal-ref`、`doi`、`categories`、`versions`；
 
@@ -35,12 +36,13 @@
 
 > **Note**
 > 
-> Model weights will be released soon | 模型权重即将发布！
+> Meta发布的LLaMA模型禁止商用，因此这里我们开源的是LoRA模型，LoRA模型必须搭配对应版本的LLaMA模型使用才可以，具体请看[Chinese-LLaMA-Alpaca
+#合并模型](https://github.com/ymcui/Chinese-LLaMA-Alpaca#%E5%90%88%E5%B9%B6%E6%A8%A1%E5%9E%8B)
 
 |模型名称|微调数据|微调基准模型|模型大小|微调时长|微调效果|
 |:-|:-|:-|:-|:-|:-|
-|LLaMa-Lora-7B-3|arXiv-50-all|LLaMa-7B|148.1MB|9 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
-|LLaMa-Lora-13B-3|arXiv-100-all|LLaMa-13B|230.05MB|26 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/13B-100-3.png)|
+|✅[LLaMa-Lora-7B-3](https://drive.google.com/file/d/1c1uUizHP7jatrj6GxtppGYgZSKPWSExs/view?usp=sharing)|arXiv-50-all|LLaMa-7B|148.1MB|9 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
+|♻️LLaMa-Lora-13B-3|arXiv-100-all|LLaMa-13B|230.05MB|26 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/13B-100-3.png)|
 
 <details>
   <summary>训练设置</summary>
