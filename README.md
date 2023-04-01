@@ -37,10 +37,10 @@
 > 
 > Model weights will be released soon | 模型权重即将发布！
 
-|模型名称|微调数据|微调基准模型|模型大小|微调效果|
-|:-|:-|:-|:-|:-|
-|LLaMa-Lora-7B-3|arXiv-50-all|LLaMa-7B|148.1MB|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
-|LLaMa-Lora-13B-3|arXiv-100-all|LLaMa-13B|230.05MB|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/13B-100-3.png)|
+|模型名称|微调数据|微调基准模型|模型大小|微调时长|微调效果|
+|:-|:-|:-|:-|:-|:-|
+|LLaMa-Lora-7B-3|arXiv-50-all|LLaMa-7B|148.1MB|9 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
+|LLaMa-Lora-13B-3|arXiv-100-all|LLaMa-13B|230.05MB|26 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/13B-100-3.png)|
 
 <details>
   <summary>训练设置</summary>
