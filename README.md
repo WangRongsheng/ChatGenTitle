@@ -33,6 +33,10 @@
 
 # Release
 
+> **Note**
+> 
+> Model weights will be released soon | 模型权重即将发布！
+
 |模型名称|微调数据|微调基准模型|模型大小|微调效果|
 |:-|:-|:-|:-|:-|
 |LLaMa-Lora-7B-3|arXiv-50-all|LLaMa-7B|148.1MB|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
