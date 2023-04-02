@@ -31,7 +31,6 @@
 - 🎉🎉 开始了一项长期进行在`arXiv`上定时爬取[cs.AI](http://export.arxiv.org/rss/cs.AI) 、[cs.CV](http://export.arxiv.org/rss/cs.CV) 、[cs.LG](http://export.arxiv.org/rss/cs.LG) 论文的任务，目的是为了支持 CS 相关方向的研究；
 - 🎉🎉 整理了`220W+`篇arXiv论文的元信息，这些元信息包括：`title`和`abstract`，更多的有：`id`、`submitter`、`authors`、`comments`、`journal-ref`、`doi`、`categories`、`versions`；
 
-
 # Release
 
 > **Note**
@@ -42,6 +41,7 @@
 |模型名称|微调数据|微调基准模型|模型大小|微调时长|微调效果|
 |:-|:-|:-|:-|:-|:-|
 |✅[LLaMa-Lora-7B-3](https://drive.google.com/file/d/1c1uUizHP7jatrj6GxtppGYgZSKPWSExs/view?usp=sharing)|arXiv-50-all|LLaMa-7B|148.1MB|9 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
+|✅[LLaMa-Lora-7B-3-new]() |arXiv-50-all|LLaMa-7B|586MB|12.5 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
 |♻️LLaMa-Lora-13B-3|arXiv-100-all|LLaMa-13B|230.05MB|26 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/13B-100-3.png)|
 
 <details>
@@ -59,6 +59,7 @@
 - [japanese-alpaca-lora](https://github.com/masa3141/japanese-alpaca-lora)
 - [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
 - [FastChat](https://github.com/lm-sys/FastChat)
+- [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter)
 
 # Knowledge
 
