@@ -79,6 +79,16 @@
 
 </details>
 
+
+<details>
+  <summary>3. 关于词表扩充</summary>
+  
+> 加入词表是有一定破坏性的， 一是破坏原有分词体系，二是增加了未训练的权重。所以如果不能进行充分训练的话，可能会有比较大的问题。个人觉得如果不是特别专的领域（比如生物医学等涉及很多专业词汇的领域）没有太大必要去扩充英文词表。 [Chinese-LLaMA-Alpaca/issues/16](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/16)
+
+</details>
+
+
+
 # LICENSE
 
 This work is licensed under a
