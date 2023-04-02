@@ -27,6 +27,18 @@ WORLD_SIZE=4 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_p
     --micro_batch_size 128 \
 	--num_epochs 3
 
+# alpaca-lora-new
+WORLD_SIZE=4 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=3192 finetune.py \
+    --base_model='../model/7B-hf' \
+    --data_path '../train1.json' \
+    --num_epochs=3 \
+    --cutoff_len=512 \
+    --group_by_length \
+    --output_dir='../alpaca-lora-new-output' \
+    --lora_target_modules='[q_proj,k_proj,v_proj,o_proj]' \
+    --lora_r=16 \
+    --micro_batch_size=16
+
 # 推理
 python generate.py \
     --load_8bit \
