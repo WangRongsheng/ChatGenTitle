@@ -42,6 +42,7 @@
 |:-|:-|:-|:-|:-|:-|
 |✅[LLaMa-Lora-7B-3](https://drive.google.com/file/d/1c1uUizHP7jatrj6GxtppGYgZSKPWSExs/view?usp=sharing)|arXiv-50-all|LLaMa-7B|148.1MB|9 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
 |✅[LLaMa-Lora-7B-3-new](https://drive.google.com/file/d/1AuxbIzMXLX89TUPQTrEF2K-IyhF3OKiZ/view?usp=sharing) |arXiv-50-all|LLaMa-7B|586MB|12.5 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-50-3-new.png)|
+|♻️LLaMa-Lora-7B-cs-3-new|arXiv-cs|LLaMa-7B|586MB|20.5 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/7b-cs-3.png)|
 |♻️LLaMa-Lora-13B-3|arXiv-100-all|LLaMa-13B|230.05MB|26 hours|[点击查看](https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/13B-100-3.png)|
 
 <details>
