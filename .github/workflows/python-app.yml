@@ -2,7 +2,7 @@ name: 'Crawler arxiv paper information'
 
 on:
   schedule:
-    - cron: '30 8 * * *'  
+    - cron: '30 15 * * *'  
   push:
     branches:
       - main
