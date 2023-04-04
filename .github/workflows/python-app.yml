@@ -30,6 +30,9 @@ jobs:
         
       - name: 'Crawl'
         run: python get_arxiv_multiprocessing.py
+      
+      - name: 'LLMs'
+        run: python get_daily_llm_paper.py
 
       - name: 'Detect changes'
         id: detect_changes
