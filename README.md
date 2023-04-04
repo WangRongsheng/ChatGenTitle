@@ -33,6 +33,7 @@
 
 ## TODO
 
+* [ ] 发布arXiv（很快完成...）
 * [ ] 完成ChatGenTitle、ChatGPT、GPT4以及LLaMa模型效果对比
 * [ ] 发布在线使用版本
 
