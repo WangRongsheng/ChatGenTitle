@@ -58,6 +58,12 @@
 
 # Reference
 
+> **Note**
+> 
+> 时代在进步，大模型（LLMs）也是，所以你可以每天来读30篇最新的关于LLM的Paper，保证你的知识不会跟丢！
+> 
+> 👉👉👉[**查看今日LLMs论文**](https://github.com/WangRongsheng/ChatGenTitle/blob/main/LLMs-papers.md)
+
 - [stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
 - [alpaca-lora](https://github.com/tloen/alpaca-lora)
 - [ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
