@@ -20,6 +20,7 @@ if response.status_code == 200:
 
     # 打开用于保存结果的Markdown文件
     with open("LLMs-papers.md", "w", encoding="utf-8") as md_file:
+        print("读取成功")
         # 提取每篇论文的链接和标题
         c = 1
         for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
@@ -28,6 +29,7 @@ if response.status_code == 200:
 
             # 将标题和链接写入Markdown文件
             md_file.write(str(c)+f". [{title}]({link})\n")
+            print(title)
             c = c+1
 
         print("论文信息已保存到papers.md文件！")
