@@ -35,7 +35,7 @@
 ## TODO
 
 * [ ] 发布arXiv（很快完成...）
-* [ ] 完成ChatGenTitle、ChatGPT、GPT4以及文心一言的效果对比
+* [X] 完成ChatGenTitle、ChatGPT、GPT4的效果对比
 * [ ] 发布在线使用版本
 
 # Release
@@ -56,6 +56,38 @@
 <details>
   <summary>训练设置</summary>
   <p>* 实验在A100 (4X, 80GB)上进行</p>
+</details>
+
+# Comparison
+
+|提示词|摘要|原始论文题目|**ChatGenTitle**|ChatGPT(GPT3.5)|GPT4|
+|:-|:-|:-|:-|:-|:-|
+|提示词①|摘要①|Focus-RCNet: A lightweight recyclable waste classification algorithm based on Focus and knowledge distillation|Focus-RCNet: A Lightweight Convolutional Neural Network for Recyclable  Waste Image Classification|Focus-RCNet: A lightweight deep learning model for automated waste classification with enhanced recyclable waste image feature recognition|Efficient Waste Classification with Focus-RCNet: A Lightweight Deep Learning Architecture Employing Sandglass Structure, SimAM Attention Mechanism, and Knowledge Distillation for Real-Time Embedded Applications|
+|提示词②|摘要②|ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices|ShuffleNet: Efficient Convolutional Neural Networks for Mobile Devices|ShuffleNet: A Computation-Efficient CNN Architecture for Mobile Devices with Superior Performance in Object Detection and ImageNet Classification while Maintaining Accuracy|ShuffleNet: A Computationally Efficient CNN Architecture for Mobile Devices with Enhanced Performance in ImageNet Classification and MS COCO Object Detection|
+|提示词③|摘要③|Segment Anything|Segment Anything|Segment Anything: Introducing a New Task, Model, and Dataset for Promptable Image Segmentation with Superior Zero-Shot Performance|Exploring the Segment Anything Project: A Promptable Image Segmentation Model and Extensive Dataset with Impressive Zero-Shot Performance|
+
+<details>
+  <summary>1. 提示词①和摘要①</summary>
+  
+- 提示词①：If you are an expert in writing papers, please generate a good paper title for this paper based on other authors' descriptions of their abstracts.
+- 摘要①：Waste pollution is one of the most important environmental problems in the modern world. With the continuous improvement of the living standard of the population and the increasing richness of the consumption structure, the amount of domestic waste generated has increased dramatically and there is an urgent need for further waste treatment of waste. The rapid development of artificial intelligence provides an effective solution for automated waste classification. However, the large computational power and high complexity of algorithms make convolutional neural networks (CNNs) unsuitable for real-time embedded applications. In this paper, we propose a lightweight network architecture, Focus-RCNet, designed with reference to the sandglass structure of MobileNetV2, which uses deeply separable convolution to extract features from images. The Focus module is introduced into the field of recyclable waste image classification to reduce the dimensionality of features while retaining relevant information. In order to make the model focus more on waste image features while keeping the amount of parameters computationally small, we introduce the SimAM attention mechanism. Additionally, knowledge distillation is used to further compress the number of parameters in the model. By training and testing on the TrashNet dataset, the Focus-RCNet model not only achieves an accuracy of 92%, but also has high mobility of deployment.
+
+</details>
+
+<details>
+  <summary>2. 提示词②和摘要②</summary>
+  
+- 提示词②：If you are an expert in writing papers, please generate a good paper title for this paper based on other authors' descriptions of their abstracts.
+- 摘要②：We introduce an extremely computation-efficient CNN architecture named ShuffleNet, which is designed specially for mobile devices with very limited computing power (e.g., 10-150 MFLOPs). The new architecture utilizes two new operations, pointwise group convolution and channel shuffle, to greatly reduce computation cost while maintaining accuracy. Experiments on ImageNet classification and MS COCO object detection demonstrate the superior performance of ShuffleNet over other structures, e.g. lower top-1 error (absolute 7.8%) than recent MobileNet on ImageNet classification task, under the computation budget of 40 MFLOPs. On an ARM-based mobile device, ShuffleNet achieves ~13x actual speedup over AlexNet while maintaining comparable accuracy.
+
+</details>
+
+<details>
+  <summary>3. 提示词③和摘要③</summary>
+  
+- 提示词③：If you are an expert in writing papers, please generate a good paper title for this paper based on other authors' descriptions of their abstracts.
+- 摘要③：We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest segmentation dataset to date (by far), with over 1 billion masks on 11M licensed and privacy respecting images. The model is designed and trained to be promptable, so it can transfer zero-shot to new image distributions and tasks. We evaluate its capabilities on numerous tasks and find that its zero-shot performance is impressive -- often competitive with or even superior to prior fully supervised results. We are releasing the Segment Anything Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images.
+
 </details>
 
 # Reference
