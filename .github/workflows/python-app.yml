@@ -34,12 +34,7 @@ jobs:
       - name: 'LLMs'
         run: python get_daily_llm_paper.py
 
-      - name: 'Detect changes'
-        id: detect_changes
-        run: if [ -n "$(git status --porcelain)" ]; then echo "::set-output name=changes_detected::yes"; fi
-
       - name: 'Push changes'
-        if: steps.detect_changes.outputs.changes_detected == 'yes'
         run: |
           git config --global user.email "wrs6@88.com"
           git config --global user.name "wangrongsheng"
