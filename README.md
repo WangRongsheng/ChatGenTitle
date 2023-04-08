@@ -26,6 +26,7 @@
 
 # News
 
+- 🎉🎉 由于缺乏GPU计算资源，我们发布了[在线部署版本](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app) 的所有代码和权重，可以在任何环境部署使用；
 - 🎉🎉 arXiv上每天都会产生大量与LLMs相关的工作，该仓库每日自动推送30篇LLMs相关的论文供大家学习，[点击学习今日LLMs论文](https://github.com/WangRongsheng/ChatGenTitle/blob/main/LLMs-papers.md)
 - 🎉🎉 正式发布[LLaMa-Lora-7B-3](https://drive.google.com/file/d/1c1uUizHP7jatrj6GxtppGYgZSKPWSExs/view?usp=sharing) 和 [LLaMa-Lora-7B-3-new](https://drive.google.com/file/d/1AuxbIzMXLX89TUPQTrEF2K-IyhF3OKiZ/view?usp=sharing) 版本的LoRA模型权重，允许本地部署使用；
 - 🎉🎉 完成了基于[alpaca-lora](https://github.com/tloen/alpaca-lora) 上进行的`LLaMa-Lora-7B-3`和`LLaMa-Lora-13B-3`模型微调；
