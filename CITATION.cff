@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: ChatGenTitle
+message: >-
+  If you use this software, please cite it using these
+  metadata.
+type: software
+authors:
+  - given-names: Rongsheng Wang
+    orcid: https://orcid.org/my-orcid?orcid=0000-0003-2390-5999
+repository-code: 'https://github.com/WangRongsheng/ChatGenTitle'
+url: 'https://github.com/WangRongsheng/ChatGenTitle'
+abstract: Paper title generation model fine-tuned on LLaMA model using information from two million arXiv papers
+license: CC BY-NC-SA 4.0
