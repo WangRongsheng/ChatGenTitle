@@ -24,6 +24,16 @@
   </p>
 </div>
 
+<center><kbd><img src="./docs/images/usage.png" height="550px"/></kbd></center>
+
+<p align="center">
+      <em>一站式服务 / 简单 / 快速 / 高效 / 智能</em>
+      <br/>
+      <a href="#"><strong>视频教程</strong></a>
+        ·
+      <a href="https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app"><strong>安装部署</strong></a>
+    </p>
+
 # News
 
 - 🎉🎉 由于缺乏GPU计算资源，我们发布了[在线部署版本](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app) 的所有代码和权重，可以在任何环境部署使用；
