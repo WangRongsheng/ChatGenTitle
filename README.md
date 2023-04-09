@@ -45,6 +45,7 @@
 
 ## TODO
 
+* [ ] 完成LoRA对大模型的教程
 * [ ] 发布arXiv（很快完成...）
 * [X] 完成ChatGenTitle、ChatGPT、GPT4的效果对比
 * [X] 发布在线使用版本，[LLaMa-Lora-7B-cs-6-new-app](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app)
