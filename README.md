@@ -1,3 +1,7 @@
+> **Note**
+> 
+> **ChatPaper已经完成了近五年5w篇顶会论文总结，可以助你在科研道路更加顺利：https://chatpaper.org/**
+
 <div align="center">
   <a href="https://github.com/WangRongsheng/ChatGenTitle">
     <img src="https://github.com/WangRongsheng/ChatGenTitle/blob/main/docs/images/logo.png" alt="Logo" height="180">
