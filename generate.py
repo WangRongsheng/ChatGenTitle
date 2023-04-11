@@ -122,6 +122,7 @@ def main(
                 lines=2,
                 label="Instruction",
                 placeholder="Tell me about alpacas.",
+                value="If you are an expert in writing papers, please generate a good paper title for this paper based on other authors' descriptions of their abstracts.",
             ),
             gr.components.Textbox(lines=2, label="Input", placeholder="none"),
             gr.components.Slider(
