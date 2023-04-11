@@ -12,7 +12,7 @@
   Corpus Models](http://arxiv.org/abs/2112.07055v2)
 8. [Unsupervised Improvement of Factual Knowledge in Language Models](http://arxiv.org/abs/2304.01597v1)
 9. [Multilingual Text Classification for Dravidian Languages](http://arxiv.org/abs/2112.01705v1)
-10. [MiLMo:Minority Multilingual Pre-trained Language Model](http://arxiv.org/abs/2212.01779v1)
+10. [MiLMo:Minority Multilingual Pre-trained Language Model](http://arxiv.org/abs/2212.01779v2)
 11. [Can Large Language Models design a Robot?](http://arxiv.org/abs/2303.15324v1)
 12. [HinFlair: pre-trained contextual string embeddings for pos tagging and
   text classification in the Hindi language](http://arxiv.org/abs/2101.06949v1)
