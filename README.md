@@ -40,6 +40,7 @@
 
 # News
 
+- 🎉🎉 所有模型在[HuggingFace](https://huggingface.co/wangrongsheng) 开源，可以直接使用；
 - 🎉🎉 所有人可以在线免费体验ChatGenTitle，<a href="https://drive.google.com/file/d/1akrC4-YnYdiyD1_VK-92hncN7HS0FLf5/view?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> ；
 - 🎉🎉 由于缺乏GPU计算资源，我们发布了[在线部署版本](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app) 的所有代码和权重，可以在任何环境部署使用；
 - 🎉🎉 arXiv上每天都会产生大量与LLMs相关的工作，该仓库每日自动推送30篇LLMs相关的论文供大家学习，[点击学习今日LLMs论文](https://github.com/WangRongsheng/ChatGenTitle/blob/main/LLMs-papers.md)
