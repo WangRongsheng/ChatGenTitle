@@ -1,0 +1,60 @@
+cd /mnt/c/Users/60332/Desktop
+
+\\wsl$
+
+rsync -aczP ./finetune_multidata.py a100:/tmp/test/alpaca-lora/
+
+rsync -aczP ./cs.json a100:/tmp/test/
+
+rsync -avzP a100:/tmp/test/7b-cs-6.zip /mnt/c/Users/60332/Desktop
+
+rsync -avzP a100:/tmp/test/model/7b.zip /mnt/c/Users/60332/Desktop
+
+history -c
+
+ssh -L 8888:127.0.0.1:端口 a100
+
+If you are an expert in writing papers, please generate a good paper title for this paper based on other authors' descriptions of their abstracts.
+
+You should also tell me which words in the abstract influenced the creation of this paper title.
+
+Waste pollution is one of the most important environmental problems in the modern world. With the continuous improvement of the living standard of the population and the increasing richness of the consumption structure, the amount of domestic waste generated has increased dramatically and there is an urgent need for further waste treatment of waste. The rapid development of artificial intelligence provides an effective solution for automated waste classification. However, the large computational power and high complexity of algorithms make convolutional neural networks (CNNs) unsuitable for real-time embedded applications. In this paper, we propose a lightweight network architecture, Focus-RCNet, designed with reference to the sandglass structure of MobileNetV2, which uses deeply separable convolution to extract features from images. The Focus module is introduced into the field of recyclable waste image classification to reduce the dimensionality of features while retaining relevant information. In order to make the model focus more on waste image features while keeping the amount of parameters computationally small, we introduce the SimAM attention mechanism. Additionally, knowledge distillation is used to further compress the number of parameters in the model. By training and testing on the TrashNet dataset, the Focus-RCNet model not only achieves an accuracy of 92%, but also has high mobility of deployment.
+
+python src/transformers/models/llama/convert_llama_weights_to_hf.py \
+    --input_dir ../model/ \
+    --model_size 13B \
+    --output_dir ../model/13B-hf
+
+WORLD_SIZE=4 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=3192 finetune.py \
+    --base_model '../model/13B-hf' \
+    --data_path '../train100-1.json' \
+    --output_dir '../alpaca-lora-100-output' \
+    --batch_size 512 \
+    --micro_batch_size 16
+
+python finetune.py \
+    --base_model='../model/7B-hf' \
+    --data_path '../train1.json' \
+    --num_epochs=3 \
+    --cutoff_len=512 \
+    --group_by_length \
+    --output_dir='../alpaca-lora-new-output' \
+    --lora_target_modules='[q_proj,k_proj,v_proj,o_proj]' \
+    --lora_r=16 \
+    --micro_batch_size=16
+
+WORLD_SIZE=4 CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 --master_port=3192 finetune.py \
+    --base_model='../model/13B-hf' \
+    --data_path '../cs.json' \
+    --num_epochs=3 \
+    --cutoff_len=512 \
+    --group_by_length \
+    --output_dir='../alpaca-lora-cs-13-output' \
+    --lora_target_modules='[q_proj,k_proj,v_proj,o_proj]' \
+    --lora_r=16 \
+    --micro_batch_size=16
+
+python generate.py \
+    --load_8bit \
+    --base_model '../model/7B-hf' \
+    --lora_weights '../alpaca-lora-cs-13-output'
