@@ -51,7 +51,7 @@
 
 ## TODO
 
-* [ ] 完成LoRA对大模型微调的教程
+* [X] 完成LoRA对大模型微调的教程，[Enjoy it!!!](https://www.philschmid.de/fine-tune-flan-t5-peft)
 * [ ] 发布arXiv（很快完成...）
 * [X] 完成ChatGenTitle、ChatGPT、GPT4的效果对比
 * [X] 发布在线使用版本，[LLaMa-Lora-7B-cs-6-new-app](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app) <a href="https://drive.google.com/file/d/1akrC4-YnYdiyD1_VK-92hncN7HS0FLf5/view?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
