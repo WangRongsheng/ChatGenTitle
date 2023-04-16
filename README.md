@@ -169,6 +169,17 @@ This work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
+
+# [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_timeline.svg)](https://github.com/WangRongsheng/ChatGenTitle/commits)
+[![Issue status graph](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_issues.svg)](https://github.com/WangRongsheng/ChatGenTitle/issues)
+[![Pull request status graph](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_prs.svg)](https://github.com/WangRongsheng/ChatGenTitle/pulls)
+[![Trending topics](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_words.svg)](https://github.com/WangRongsheng/ChatGenTitle/commits)
+[![Top contributors](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_users.svg)](https://github.com/WangRongsheng/ChatGenTitle/graphs/contributors)
+[![Activity map](https://images.repography.com/36500635/WangRongsheng/ChatGenTitle/recent-activity/L-1AGU6P13WbZ-SijIsJU-AgwfWmr0cwDwS-jixfjts/GOKgvyNJJRgkRPw9WsbDdmuSHTBrcD0AYA0WD0WDMIA_map.svg)](https://github.com/WangRongsheng/ChatGenTitle/commits)
+
+
+
 # Stargazers
 	
 [![Stargazers over time](https://starchart.cc/WangRongsheng/ChatGenTitle.svg)](https://starchart.cc/WangRongsheng/ChatGenTitle)
