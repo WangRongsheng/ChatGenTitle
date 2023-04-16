@@ -43,7 +43,7 @@
 - 🎉🎉 所有模型在[HuggingFace](https://huggingface.co/wangrongsheng) 开源，可以直接使用；
 - 🎉🎉 所有人可以在线免费体验ChatGenTitle，<a href="https://drive.google.com/file/d/1akrC4-YnYdiyD1_VK-92hncN7HS0FLf5/view?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> ；
 - 🎉🎉 由于缺乏GPU计算资源，我们发布了[在线部署版本](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app) 的所有代码和权重，可以在任何环境部署使用；
-- 🎉🎉 arXiv上每天都会产生大量与LLMs相关的工作，该仓库每日自动推送30篇LLMs相关的论文供大家学习，[点击学习今日LLMs论文](https://github.com/WangRongsheng/ChatGenTitle/blob/main/LLMs-papers.md)
+- 🎉🎉 arXiv上每天都会产生大量与LLMs相关的工作，该仓库每日自动推送30篇LLMs相关的论文供大家学习，[点击学习今日LLMs论文](https://github.com/WangRongsheng/ChatGenTitle/blob/main/LLMs-papers.md) ;
 - 🎉🎉 正式发布[LLaMa-Lora-7B-3](https://drive.google.com/file/d/1c1uUizHP7jatrj6GxtppGYgZSKPWSExs/view?usp=sharing) 和 [LLaMa-Lora-7B-3-new](https://drive.google.com/file/d/1AuxbIzMXLX89TUPQTrEF2K-IyhF3OKiZ/view?usp=sharing) 版本的LoRA模型权重，允许本地部署使用；
 - 🎉🎉 完成了基于[alpaca-lora](https://github.com/tloen/alpaca-lora) 上进行的`LLaMa-Lora-7B-3`和`LLaMa-Lora-13B-3`模型微调；
 - 🎉🎉 开始了一项长期进行在`arXiv`上定时爬取[cs.AI](http://export.arxiv.org/rss/cs.AI) 、[cs.CV](http://export.arxiv.org/rss/cs.CV) 、[cs.LG](http://export.arxiv.org/rss/cs.LG) 论文的任务，目的是为了支持 CS 相关方向的研究；
