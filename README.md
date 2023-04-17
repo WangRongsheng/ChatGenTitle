@@ -161,7 +161,7 @@
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
 
-**使用和许可声明**：ChatGenTitle 仅可以在获得许可下供研究使用。**使用尽可用于科学研究，不可用于实际论文写作中，否则，由此产生的一切后果由使用人负责!!!**
+**使用和许可声明**：ChatGenTitle 仅可以在获得许可下供研究使用。**使用仅可用于科学研究，不可用于实际论文写作中，否则，由此产生的一切后果由使用人负责!!!**
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
