@@ -78,11 +78,11 @@
 
 # Comparison
 
-|提示词|摘要|原始论文题目|**ChatGenTitle**|ChatGPT(GPT3.5)|GPT4|
-|:-|:-|:-|:-|:-|:-|
-|提示词①|摘要①|Focus-RCNet: A lightweight recyclable waste classification algorithm based on Focus and knowledge distillation|Focus-RCNet: A Lightweight Convolutional Neural Network for Recyclable  Waste Image Classification|Focus-RCNet: A lightweight deep learning model for automated waste classification with enhanced recyclable waste image feature recognition|Efficient Waste Classification with Focus-RCNet: A Lightweight Deep Learning Architecture Employing Sandglass Structure, SimAM Attention Mechanism, and Knowledge Distillation for Real-Time Embedded Applications|
-|提示词②|摘要②|ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices|ShuffleNet: Efficient Convolutional Neural Networks for Mobile Devices|ShuffleNet: A Computation-Efficient CNN Architecture for Mobile Devices with Superior Performance in Object Detection and ImageNet Classification while Maintaining Accuracy|ShuffleNet: A Computationally Efficient CNN Architecture for Mobile Devices with Enhanced Performance in ImageNet Classification and MS COCO Object Detection|
-|提示词③|摘要③|Segment Anything|Segment Anything|Segment Anything: Introducing a New Task, Model, and Dataset for Promptable Image Segmentation with Superior Zero-Shot Performance|Exploring the Segment Anything Project: A Promptable Image Segmentation Model and Extensive Dataset with Impressive Zero-Shot Performance|
+|提示词|摘要|原始论文题目|**ChatGenTitle**|ChatGPT(GPT3.5)|GPT4|ChatGLM(130B)|
+|:-|:-|:-|:-|:-|:-|:-|
+|提示词①|摘要①|Focus-RCNet: A lightweight recyclable waste classification algorithm based on Focus and knowledge distillation|Focus-RCNet: A Lightweight Convolutional Neural Network for Recyclable  Waste Image Classification|Focus-RCNet: A lightweight deep learning model for automated waste classification with enhanced recyclable waste image feature recognition|Efficient Waste Classification with Focus-RCNet: A Lightweight Deep Learning Architecture Employing Sandglass Structure, SimAM Attention Mechanism, and Knowledge Distillation for Real-Time Embedded Applications|超过Token长度|
+|提示词②|摘要②|ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices|ShuffleNet: Efficient Convolutional Neural Networks for Mobile Devices|ShuffleNet: A Computation-Efficient CNN Architecture for Mobile Devices with Superior Performance in Object Detection and ImageNet Classification while Maintaining Accuracy|ShuffleNet: A Computationally Efficient CNN Architecture for Mobile Devices with Enhanced Performance in ImageNet Classification and MS COCO Object Detection|ShuffleNet: An Extremely Computation-Efficient CNN Architecture for Mobile Devices|
+|提示词③|摘要③|Segment Anything|Segment Anything|Segment Anything: Introducing a New Task, Model, and Dataset for Promptable Image Segmentation with Superior Zero-Shot Performance|Exploring the Segment Anything Project: A Promptable Image Segmentation Model and Extensive Dataset with Impressive Zero-Shot Performance|Segment Anything (SA) Project: A New Task, Model, and Dataset for Image Segmentation|
 
 <details>
   <summary>1. 提示词①和摘要①</summary>
