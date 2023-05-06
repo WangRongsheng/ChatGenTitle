@@ -1,6 +1,8 @@
 > **Note**
 > 
 > **ChatPaper已经完成了近五年5w篇顶会论文总结，可以助你在科研道路更加顺利：https://chatpaper.org/**
+> 
+> **全新的基于ChatGLM微调的医学问答大模型已经发布：https://github.com/WangRongsheng/MedQA-ChatGLM**
 
 <div align="center">
   <a href="https://github.com/WangRongsheng/ChatGenTitle">
