@@ -44,4 +44,5 @@
 28. [DPRK-BERT: The Supreme Language Model](http://arxiv.org/abs/2112.00567v1)
 29. [MultiPL-E: A Scalable and Extensible Approach to Benchmarking Neural
   Code Generation](http://arxiv.org/abs/2208.08227v4)
-30. [Subword Segmental Language Modelling for Nguni Languages](http://arxiv.org/abs/2210.06525v1)
+30. [TabLLM: Few-shot Classification of Tabular Data with Large Language
+  Models](http://arxiv.org/abs/2210.10723v2)
