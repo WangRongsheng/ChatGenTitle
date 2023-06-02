@@ -42,6 +42,7 @@
 
 # News
 
+- 🎉🎉 训练数据集在[Cornell-University/arxiv](https://www.kaggle.com/datasets/Cornell-University/arxiv)，可以直接使用；
 - 🎉🎉 所有模型在[HuggingFace](https://huggingface.co/wangrongsheng) 开源，可以直接使用；
 - 🎉🎉 所有人可以在线免费体验ChatGenTitle，<a href="https://drive.google.com/file/d/1akrC4-YnYdiyD1_VK-92hncN7HS0FLf5/view?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> ；
 - 🎉🎉 由于缺乏GPU计算资源，我们发布了[在线部署版本](https://github.com/WangRongsheng/ChatGenTitle/releases/tag/LLaMa-Lora-7B-cs-6-new-app) 的所有代码和权重，可以在任何环境部署使用；
