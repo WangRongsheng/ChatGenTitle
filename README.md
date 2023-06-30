@@ -129,6 +129,7 @@
 - [FastChat](https://github.com/lm-sys/FastChat)
 - [LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter)
 - [LMFlow](https://github.com/OptimalScale/LMFlow)
+- [中文科学文献数据集](https://github.com/ydli-ai/CSL)
 
 # Knowledge
 
