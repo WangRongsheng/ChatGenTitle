@@ -19,8 +19,8 @@
   Translation](http://arxiv.org/abs/1909.04879v1)
 12. [Large Language Models are not Models of Natural Language: they are
   Corpus Models](http://arxiv.org/abs/2112.07055v2)
-13. [BigTrans: Augmenting Large Language Models with Multilingual Translation
-  Capability over 100 Languages](http://arxiv.org/abs/2305.18098v1)
+13. [BigTranslate: Augmenting Large Language Models with Multilingual
+  Translation Capability over 100 Languages](http://arxiv.org/abs/2305.18098v2)
 14. [Re-visiting Automated Topic Model Evaluation with Large Language Models](http://arxiv.org/abs/2305.12152v1)
 15. [Unsupervised Improvement of Factual Knowledge in Language Models](http://arxiv.org/abs/2304.01597v1)
 16. [UIO at SemEval-2023 Task 12: Multilingual fine-tuning for sentiment
@@ -30,3 +30,19 @@
 19. [Jigsaw: Large Language Models meet Program Synthesis](http://arxiv.org/abs/2112.02969v1)
 20. [HinFlair: pre-trained contextual string embeddings for pos tagging and
   text classification in the Hindi language](http://arxiv.org/abs/2101.06949v1)
+21. [Larger-Scale Transformers for Multilingual Masked Language Modeling](http://arxiv.org/abs/2105.00572v1)
+22. [Exploring Cross-lingual Textual Style Transfer with Large Multilingual
+  Language Models](http://arxiv.org/abs/2206.02252v1)
+23. [Low-Resource Language Modelling of South African Languages](http://arxiv.org/abs/2104.00772v1)
+24. [In What Languages are Generative Language Models the Most Formal?
+  Analyzing Formality Distribution across Languages](http://arxiv.org/abs/2302.12299v1)
+25. [LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with
+  Knowledge Distillation](http://arxiv.org/abs/2302.08387v1)
+26. [Reimagining Retrieval Augmented Language Models for Answering Queries](http://arxiv.org/abs/2306.01061v1)
+27. [Benchmarking Language Models for Code Syntax Understanding](http://arxiv.org/abs/2210.14473v1)
+28. [Can Character-based Language Models Improve Downstream Task Performance
+  in Low-Resource and Noisy Language Scenarios?](http://arxiv.org/abs/2110.13658v1)
+29. [Learning Translation Quality Evaluation on Low Resource Languages from
+  Large Language Models](http://arxiv.org/abs/2302.03491v1)
+30. [Investigating the Translation Performance of a Large Multilingual
+  Language Model: the Case of BLOOM](http://arxiv.org/abs/2303.01911v2)
