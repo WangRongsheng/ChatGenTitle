@@ -146,7 +146,7 @@
 <details>
   <summary>2. 为什么会有LLaMA模型和LoRA两种模型？</summary>
   
-> 如1所述，模型的微调方式有很多种，基于LoRA的微调产生保存了新的权重，我们可以将生成的LoRA权重认为是一个原来LLaMA模型的[补丁权重](https://github.com/ymcui/Chinese-LLaMA-Alpaca#%EF%B8%8F-%E7%94%A8%E6%88%B7%E9%A1%BB%E7%9F%A5%E5%BF%85%E8%AF%BB) 。至于[LLaMA](https://github.com/facebookresearch/llama) 权重，它则是由Mean公司开源的大模型预训练权重。
+> 如1所述，模型的微调方式有很多种，基于LoRA的微调产生保存了新的权重，我们可以将生成的LoRA权重认为是一个原来LLaMA模型的[补丁权重](https://github.com/ymcui/Chinese-LLaMA-Alpaca#%EF%B8%8F-%E7%94%A8%E6%88%B7%E9%A1%BB%E7%9F%A5%E5%BF%85%E8%AF%BB) 。至于[LLaMA](https://github.com/facebookresearch/llama) 权重，它则是由Meta公司开源的大模型预训练权重。
 
 </details>
 
