@@ -36,13 +36,12 @@
 23. [Low-Resource Language Modelling of South African Languages](http://arxiv.org/abs/2104.00772v1)
 24. [In What Languages are Generative Language Models the Most Formal?
   Analyzing Formality Distribution across Languages](http://arxiv.org/abs/2302.12299v1)
-25. [LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with
+25. [Dynamic Large Language Models on Blockchains](http://arxiv.org/abs/2307.10549v1)
+26. [LEALLA: Learning Lightweight Language-agnostic Sentence Embeddings with
   Knowledge Distillation](http://arxiv.org/abs/2302.08387v1)
-26. [Reimagining Retrieval Augmented Language Models for Answering Queries](http://arxiv.org/abs/2306.01061v1)
-27. [Benchmarking Language Models for Code Syntax Understanding](http://arxiv.org/abs/2210.14473v1)
-28. [Can Character-based Language Models Improve Downstream Task Performance
+27. [Reimagining Retrieval Augmented Language Models for Answering Queries](http://arxiv.org/abs/2306.01061v1)
+28. [Benchmarking Language Models for Code Syntax Understanding](http://arxiv.org/abs/2210.14473v1)
+29. [Can Character-based Language Models Improve Downstream Task Performance
   in Low-Resource and Noisy Language Scenarios?](http://arxiv.org/abs/2110.13658v1)
-29. [Learning Translation Quality Evaluation on Low Resource Languages from
+30. [Learning Translation Quality Evaluation on Low Resource Languages from
   Large Language Models](http://arxiv.org/abs/2302.03491v1)
-30. [Investigating the Translation Performance of a Large Multilingual
-  Language Model: the Case of BLOOM](http://arxiv.org/abs/2303.01911v2)
